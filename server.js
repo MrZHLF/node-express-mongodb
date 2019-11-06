@@ -4,6 +4,8 @@ const jwt = require('jsonwebtoken')
 const app = express();
 const SECRET = 'ewgfvwergvwsgw5454gsrgvsvsd'
 
+
+// 测试接口是否通
 app.use(express.json())
 app.get('/api/test',async(req,res) =>{
     res.send('ok')

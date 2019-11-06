@@ -21,7 +21,6 @@ const UserSchema = new mongoose.Schema({
 
 
 const User = mongoose.model('User',UserSchema)
-
 // 全部删除
 // User.db.dropCollection('users')
 module.exports = {User}

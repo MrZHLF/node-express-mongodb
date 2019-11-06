@@ -16,7 +16,6 @@ post {{url}}/register
 {{json}}
 
 
-
 {
     "username":"user4",
     "password":"123456"
