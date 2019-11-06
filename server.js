@@ -5,9 +5,6 @@ const app = express();
 const SECRET = 'ewgfvwergvwsgw5454gsrgvsvsd'
 
 app.use(express.json())
-
-
-
 app.get('/api/test',async(req,res) =>{
     res.send('ok')
 })
@@ -25,7 +22,6 @@ app.post('/api/register',async(req,res) =>{
         username:req.body.username,
         password:req.body.password
     })
-    // 返回出去
     res.send(user)
 })
 
